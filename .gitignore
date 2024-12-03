@@ -3,3 +3,5 @@
 
 # Ignore PEM files
 *.pem
+
+__pycache__
