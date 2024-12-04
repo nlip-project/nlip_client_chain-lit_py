@@ -1,7 +1,0 @@
-# Ignore the .env file
-.env
-
-# Ignore PEM files
-*.pem
-
-__pycache__
