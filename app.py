@@ -61,7 +61,7 @@ def serialize_message(data_structure: dict) -> dict:
 
 @cl.on_message
 async def main(message: cl.Message):
-    url = "https://druid.eecs.umich.edu:443/nlip/"
+    url = "https://druid.eecs.umich.edu/nlip/"
     load_dotenv()
     pem_file_path = os.getenv("PEM_FILE_PATH")
 
